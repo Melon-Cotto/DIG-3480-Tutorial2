@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - Mover
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -27,6 +28,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -36,7 +45,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.HorizontalLayoutGroup
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -59,36 +67,48 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 622}
+      Script: {instanceID: 648}
     - Class: 114
-      Script: {instanceID: 1714}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 1810}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1816}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 2644}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 2824}
+      Script: {instanceID: 3020}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 3264}
     - Class: 114
-      Script: {instanceID: 3238}
+      Script: {instanceID: 4702}
     - Class: 114
-      Script: {instanceID: 4676}
+      Script: {instanceID: 5066}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5174}
+      Script: {instanceID: 5202}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -592,6 +612,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mover
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -604,7 +630,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: a3bc504dcd54fd081182f3be1e2f49cc
+      Hash: 720259a3d97a7c161a4543b89ca70c23
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -647,4 +673,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/DIG 3480/Unity Builds/Tutorial 2 Build 1.0/Tutorial 2 Platformers.exe
+  playerPath: C:/DIG 3480/Unity Builds/Challenge 2 Build 1.0/Tutorial 2 Platformers.exe
